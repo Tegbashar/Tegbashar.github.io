@@ -1,0 +1,88 @@
+
+body {
+    margin: 0px;
+    min-width: 500px;
+    background-image: url("/aperture.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Syne Mono', monospace;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sepa {
+    text-align: center;
+    text-size-adjust: 30px;
+}
+
+.navbar {
+    background-color: #333333;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar img {
+    float: left;
+    padding-left: 10%;
+}
+
+.navbar .links {
+    float: right;
+    padding-right: 10%;
+}
+
+.navbar a {
+    color: #ff00ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background-color: rgba(185, 92, 92, 0.904);
+    color: black;
+}
+  
+
+
+h1 {
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+  
+h2:nth-child(2) {
+    color: #ff0066;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    word-spacing: 7px;
+    line-height: 1.6em;
+}
+
+
+table, th, td {
+    font-size: 19px;
+    text-align: left;
+    font-family: 'Syne Tactile', cursive;
+    border: 1px solid black;
+    word-spacing: 5px;
+    line-height: 1.2em;
+  }
+
+ 
