@@ -12,6 +12,7 @@ body {
 section {
     padding-left: 10%;
     padding-right: 10%;
+    
 }
 
 .sepa {
@@ -59,11 +60,9 @@ h1 {
 
 h2 {
     font-size: 40px;
-}
-  
-h2:nth-child(2) {
     color: #ff0066;
 }
+  
 
 h3 {
     font-size: 36px;
@@ -82,7 +81,7 @@ table, th, td {
     font-family: 'Syne Tactile', cursive;
     border: 1px solid black;
     word-spacing: 5px;
-    line-height: 1.2em;
+    line-height: 1.3em;
   }
 
  
